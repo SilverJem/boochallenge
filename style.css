@@ -1,0 +1,127 @@
+
+/*#f83600,#ff5722 */
+body{
+	background-color: rgb(62,62,62);
+	width:100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+
+}
+.container{
+	background-color:inherit;
+	width: 90%;
+	height: 90%;
+
+}
+.or{
+	color: white;
+	position:absolute;
+	top:0%;
+	z-index: 1;
+	left: 49%;
+	background-color: #ff5722;
+	font-size:400%;
+	
+	border:1px solid white;
+	border-radius: 50%;
+	text-align: center;
+}
+.trick{
+	position: absolute;
+	top: 5%;
+	background:#f83600;
+	background-size: 400%;
+	width: 48%;
+	height: 90%;
+	left: 2%;
+	border: white solid 3px;
+	
+	border-right: 1px solid white;
+	
+}
+.trick:hover{
+	background-image:linear-gradient(90deg,#f83600,#f9d423,#f83600);
+	border: white solid 3px;
+	animation: 4s animate linear infinite;
+	box-shadow: -10px 10px 10px grey;
+}
+@keyframes animate{
+	0%{
+		background-position:0%;
+	}
+	
+	100%{
+		background-position:400%;
+	}
+}
+
+
+.trick h1{
+	color: white;
+	position:absolute;
+	top: 10%;
+	left: 0%;
+	background-color: #ff5722;
+	font-size: 900%;
+	width: 100%;
+	text-align: center;
+}
+.trick:hover h1{
+	color:#ff5722;
+	background-color:white ;
+	font-size: 900%;
+}
+.trick strong{
+	color: white;
+	position:absolute;
+	bottom: 10%;
+	left: 0%;
+	
+	font-size: 900%;
+	width: 100%;
+	text-align: center;
+}
+.treat{
+	background-color:#f9d423;
+	right: 2%;
+	width: 47.5%;
+	height: 90%;
+	float: right;
+	position: absolute;
+	top: 5%;
+	background-size: 400%;
+	border: white solid 3px;
+	border-left: 1px solid white;
+}
+.treat:hover{
+	
+	background-image:linear-gradient(90deg,#f83600,#f9d423,#f83600);
+	
+	animation: 4s animate linear infinite;
+	box-shadow: 10px 10px 10px grey;
+	border: white solid 3px;
+	border-left: 1px solid white;
+}
+.treat h1{
+	color: white;
+	position:absolute;
+	bottom: 10%;
+	left: 0%;
+	background-color: #ff5722;
+	font-size: 900%;
+	width: 100%;
+	text-align: center;
+}
+.treat:hover h1{
+	color: #ff5722;
+	background-color:snow ;
+}
+.treat strong{
+	position:absolute;
+	top: 10%;
+	left: 0%;
+	font-size: 900%;
+	width: 100%;
+	text-align: center;
+}
